@@ -1,5 +1,9 @@
 package sample;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.testng.annotations.Test;
 
 public class SampleTest {
@@ -23,6 +27,11 @@ public class SampleTest {
 		for (int i = 0; i < n.length; i++) {
 			System.out.println(n[i]);
 		}
+	}
+	@Test
+	public void uniqueNumbersCount() {
+		List<Integer>lst=Arrays.asList(2,4,8,1,2,1,8,5,10,10);
+		System.out.println(lst.stream().distinct().sorted().collect(Collectors.toList()));
 	}
 
 }
