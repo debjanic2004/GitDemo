@@ -33,5 +33,24 @@ public class SampleTest {
 		List<Integer>lst=Arrays.asList(2,4,8,1,2,1,8,5,10,10);
 		System.out.println(lst.stream().distinct().sorted().collect(Collectors.toList()));
 	}
+	
+	@Test
+	public void isPalindrime() {
+		String str="madame";
+		boolean chck=false;
+		int i=0;int j=str.length()-1;
+		while(i<j) {
+			if(str.charAt(i)!=str.charAt(j)) {
+				
+				break;
+			}
+			chck=true;
+			i++;
+			j--;
+		}
+		if(chck) System.out.println("It's Palindrome");
+		else System.out.println("It's not Palindrome");
+		
+	}
 
 }
