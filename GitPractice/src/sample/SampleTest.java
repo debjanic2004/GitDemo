@@ -36,7 +36,7 @@ public class SampleTest {
 	
 	@Test
 	public void isPalindrime() {
-		String str="madame";
+		String str="madam";
 		boolean chck=false;
 		int i=0;int j=str.length()-1;
 		while(i<j) {
@@ -67,6 +67,18 @@ public class SampleTest {
 	public void removeJunkCharacters() {
 		String str="abj%^i5612wey#@";
 		System.out.println(str.replaceAll("[^1-9,a-z,A-Z]",""));
+		
+	}
+	@Test
+	public void printPatten() {
+		int ct=0;
+		for(int i=1;i<=4;i++) {
+			for(int j=4;j>=i;j--) {
+				ct++;
+				System.out.print(ct+" ");
+			}
+			System.out.println("\n");
+		}
 		
 	}
 	

@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-22T14:39:35 PDT" name="Default suite" finished-at="2020-07-22T14:39:35 PDT" duration-ms="39">
+  <suite started-at="2020-07-22T14:59:51 PDT" name="Default suite" finished-at="2020-07-22T14:59:51 PDT" duration-ms="39">
     <groups>
     </groups>
-    <test started-at="2020-07-22T14:39:35 PDT" name="Default test" finished-at="2020-07-22T14:39:35 PDT" duration-ms="39">
+    <test started-at="2020-07-22T14:59:51 PDT" name="Default test" finished-at="2020-07-22T14:59:51 PDT" duration-ms="39">
       <class name="sample.SampleTest">
-        <test-method signature="BubbleSort()[pri:0, instance:sample.SampleTest@36f0f1be]" started-at="2020-07-22T14:39:35 PDT" name="BubbleSort" finished-at="2020-07-22T14:39:35 PDT" duration-ms="6" status="PASS">
+        <test-method signature="BubbleSort()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="BubbleSort" finished-at="2020-07-22T14:59:51 PDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BubbleSort -->
-        <test-method signature="countNumbersOfLetters()[pri:0, instance:sample.SampleTest@36f0f1be]" started-at="2020-07-22T14:39:35 PDT" name="countNumbersOfLetters" finished-at="2020-07-22T14:39:35 PDT" duration-ms="1" status="PASS">
+        <test-method signature="countNumbersOfLetters()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="countNumbersOfLetters" finished-at="2020-07-22T14:59:51 PDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countNumbersOfLetters -->
-        <test-method signature="isPalindrime()[pri:0, instance:sample.SampleTest@36f0f1be]" started-at="2020-07-22T14:39:35 PDT" name="isPalindrime" finished-at="2020-07-22T14:39:35 PDT" duration-ms="1" status="PASS">
+        <test-method signature="isPalindrime()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="isPalindrime" finished-at="2020-07-22T14:59:51 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPalindrime -->
-        <test-method signature="removeJunkCharacters()[pri:0, instance:sample.SampleTest@36f0f1be]" started-at="2020-07-22T14:39:35 PDT" name="removeJunkCharacters" finished-at="2020-07-22T14:39:35 PDT" duration-ms="1" status="PASS">
+        <test-method signature="printPatten()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="printPatten" finished-at="2020-07-22T14:59:51 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPatten -->
+        <test-method signature="removeJunkCharacters()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="removeJunkCharacters" finished-at="2020-07-22T14:59:51 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeJunkCharacters -->
-        <test-method signature="uniqueNumbersList()[pri:0, instance:sample.SampleTest@36f0f1be]" started-at="2020-07-22T14:39:35 PDT" name="uniqueNumbersList" finished-at="2020-07-22T14:39:35 PDT" duration-ms="2" status="PASS">
+        <test-method signature="uniqueNumbersList()[pri:0, instance:sample.SampleTest@157632c9]" started-at="2020-07-22T14:59:51 PDT" name="uniqueNumbersList" finished-at="2020-07-22T14:59:51 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uniqueNumbersList -->
