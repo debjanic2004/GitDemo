@@ -29,7 +29,7 @@ public class SampleTest {
 		}
 	}
 	@Test
-	public void uniqueNumbersCount() {
+	public void uniqueNumbersList() {
 		List<Integer>lst=Arrays.asList(2,4,8,1,2,1,8,5,10,10);
 		System.out.println(lst.stream().distinct().sorted().collect(Collectors.toList()));
 	}
@@ -51,6 +51,17 @@ public class SampleTest {
 		if(chck) System.out.println("It's Palindrome");
 		else System.out.println("It's not Palindrome");
 		
+	}
+	@ Test
+	public void countNumbersOfLetters() {
+		int ct=0;
+		String str=" hello    welcome   ";
+		for(int i=0;i<str.length();i++) {
+			if(((str.charAt(0)==' ' ||str.charAt(0)!=' ') && str.charAt(i)!=' ')||(str.charAt(i)!=' ' && str.charAt(i-1)==' ')) {
+				ct++;
+			}
+		}
+		System.out.println("The number of letters in the string :::: "+ct);
 	}
 
 }

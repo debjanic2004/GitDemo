@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +109,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="sample.SampleTest" class="method navigator-link" hash-for-method="countNumbersOfLetters">countNumbersOfLetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="sample.SampleTest" class="method navigator-link" hash-for-method="isPalindrime">isPalindrime</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="sample.SampleTest" class="method navigator-link" hash-for-method="uniqueNumbersCount">uniqueNumbersCount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="sample.SampleTest" class="method navigator-link" hash-for-method="uniqueNumbersList">uniqueNumbersList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,6 +149,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="countNumbersOfLetters">
+                  </a> <!-- countNumbersOfLetters -->
+                  <span class="method-name">countNumbersOfLetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="isPalindrime">
                   </a> <!-- isPalindrime -->
                   <span class="method-name">isPalindrime</span>
@@ -151,9 +163,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="uniqueNumbersCount">
-                  </a> <!-- uniqueNumbersCount -->
-                  <span class="method-name">uniqueNumbersCount</span>
+                  <a name="uniqueNumbersList">
+                  </a> <!-- uniqueNumbersList -->
+                  <span class="method-name">uniqueNumbersList</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +173,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/yt/cyt27g4s3vv_s23ycpwv2hg80000gp/T/testng-eclipse-511963982/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/yt/cyt27g4s3vv_s23ycpwv2hg80000gp/T/testng-eclipse--307741120/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,19 +222,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'BubbleSort')
 data.setCell(0, 2, 'sample.SampleTest')
-data.setCell(0, 3, 7);
+data.setCell(0, 3, 5);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'uniqueNumbersCount')
+data.setCell(1, 1, 'uniqueNumbersList')
 data.setCell(1, 2, 'sample.SampleTest')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'isPalindrime')
 data.setCell(2, 2, 'sample.SampleTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'countNumbersOfLetters')
+data.setCell(3, 2, 'sample.SampleTest')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -259,12 +275,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">isPalindrime</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">countNumbersOfLetters</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">uniqueNumbersCount</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-name">isPalindrime</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uniqueNumbersList</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
