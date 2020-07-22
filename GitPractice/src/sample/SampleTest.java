@@ -63,5 +63,12 @@ public class SampleTest {
 		}
 		System.out.println("The number of letters in the string :::: "+ct);
 	}
+	@Test
+	public void removeJunkCharacters() {
+		String str="abj%^i5612wey#@";
+		System.out.println(str.replaceAll("[^1-9,a-z,A-Z]",""));
+		
+	}
+	
 
 }
