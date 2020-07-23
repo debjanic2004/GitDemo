@@ -1,7 +1,12 @@
 deb
+<<<<<<< HEAD
 ben
 
 
 shreya
 soham
 soum
+=======
+deb2
+deb4
+>>>>>>> master
