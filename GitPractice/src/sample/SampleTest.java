@@ -81,6 +81,22 @@ public class SampleTest {
 		}
 		
 	}
+	@Test
+	public void printPrimeNumbers() {
+		for(int i=2;i<=100;i++) {
+			int ct=0;
+			for(int j=i;j>=1;j--) {
+				if(i%j==0) {
+					ct++;
+				}
+			}
+			if(ct==2) {
+				System.out.print(i+"  ");
+			}
+		}
+		System.out.println("\n");
+	}
+	
 	
 
 }
