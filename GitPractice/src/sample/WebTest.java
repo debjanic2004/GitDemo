@@ -21,7 +21,6 @@ public class WebTest {
 		dr.findElement(By.cssSelector("#continue")).click();
 		String txt=dr.findElement(By.cssSelector(".a-list-item")).getText();
 		String exp="We cannot find an account with that email address"; 
-		
 		Assert.assertEquals(txt, exp);
 		
 	}
